@@ -1,0 +1,19 @@
+MD MEHDI HASAN PERSONAL WEBSITE — EASY SETUP
+
+CONTACT FORM:
+1. Open https://formspree.io/ and create a form.
+2. Copy the endpoint they provide (example: https://formspree.io/f/xxxxxxxx).
+3. Open config.js.
+4. Put the endpoint here:
+   formspreeEndpoint: "YOUR_ENDPOINT"
+5. Save config.js.
+The Contact form will then send submissions to the email connected to your Formspree account.
+
+SOCIAL LINKS:
+In config.js replace the empty values:
+facebook: "https://facebook.com/yourname"
+github: "https://github.com/yourname"
+linkedin: "https://linkedin.com/in/yourname"
+instagram: "https://instagram.com/yourname"
+
+You can add your profile photo later in index.html.
